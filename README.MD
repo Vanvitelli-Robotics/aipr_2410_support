@@ -7,8 +7,8 @@
 - Installare questo pacchetto e il simulatore, infine scaricare le dipendenze
 Nella cartella src del ros workspace
 ```bash
-git clone https://github.com/Vanvitelli-Robotics/uclv_aipr_panda_sim.git #Simulatore
-git clone https://github.com/Vanvitelli-Robotics/aipr_2409_support.git
+git clone https://github.com/Vanvitelli-Robotics/uclv_aipr_meca500_sim.git #Simulatore
+git clone https://github.com/Vanvitelli-Robotics/aipr_2410_support.git
 sudo apt update && rosdep install -r --from-paths . --ignore-src --rosdistro $ROS_DISTRO -y
 ```
 
@@ -16,7 +16,7 @@ sudo apt update && rosdep install -r --from-paths . --ignore-src --rosdistro $RO
 
 Avviare il simulatore:
 ```bash
-ros2 launch aipr_2409_support sim.launch.py
+ros2 launch aipr_2410_support sim.launch.py
 ```
 
 ## License
